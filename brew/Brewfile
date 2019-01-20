@@ -1,0 +1,34 @@
+brew "git"
+brew "tmux"
+brew "vim", args: ['--with-override-system-vi']
+brew "zsh"
+brew "fzf" # fuzzy file finder
+brew "nvm"
+brew "diff-so-fancy" # colors diffs properly
+brew "autojump" # jump to path
+brew "kryptco/tap/kr"
+brew "ripgrep" # fast search
+
+tap "homebrew/cask"
+cask_args appdir: "/Applications"
+cask "firefox"
+cask "google-chrome"
+cask "visual-studio-code"
+cask "vlc"
+cask "spotify"
+cask "authy"
+cask "tableplus"
+cask "iterm2"
+cask "calibre"
+cask "muzzle"
+# Needs to be updated
+# cask "jitouch"
+
+tap 'caskroom/fonts'
+cask 'font-fira-code'
+
+brew "mas"
+mas "1Password", id: 1333542190
+mas "AutoMute", id: 1118136179
+mas "flycut", id: 442160987
+mas "Telegram", id: 747648890
