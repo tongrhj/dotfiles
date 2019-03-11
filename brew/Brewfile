@@ -21,6 +21,7 @@ cask "tableplus"
 cask "iterm2"
 cask "calibre"
 cask "muzzle"
+cask "dozer"
 # Needs to be updated
 # cask "jitouch"
 
