@@ -1,0 +1,7 @@
+brew "zsh"
+brew "fzf" # fuzzy file finder
+brew "nvm"
+brew "diff-so-fancy" # colors diffs properly
+brew "autojump" # jump to path
+brew "kryptco/tap/kr"
+brew "ripgrep" # fast search

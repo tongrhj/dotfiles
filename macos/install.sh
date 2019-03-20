@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+#!/bin/bash
+set -ev
 
 if [ "$(uname)" != "Darwin" ]; then
   echo "install.sh is meant for OS X only"

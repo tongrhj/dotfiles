@@ -3,7 +3,6 @@
 	email = tongrhj@users.noreply.github.com
 [core]
 	editor = vim
-	excludesfile = /Users/jaredtong/.gitignore
 	pager = diff-so-fancy | less --tabs=2 -RFX
 [alias]
 	undo = reset --soft HEAD^

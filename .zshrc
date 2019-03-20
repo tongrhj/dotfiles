@@ -108,6 +108,6 @@ alias vi="vim"
 # https://www.anand-iyer.com/blog/2018/a-simpler-way-to-manage-your-dotfiles.html
 alias dotfiles='/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
-eval "$(jump shell)"
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-export GPG_TTY=$(tty)
+eval "$(jump shell)" # Added by autojump
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh # Added by fzf
+export GPG_TTY=$(tty) # Added by krypton
