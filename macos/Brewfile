@@ -22,6 +22,7 @@ cask "iterm2"
 cask "calibre"
 cask "muzzle"
 cask "dozer"
+cask "keepingyouawake"
 # Needs to be updated
 # cask "jitouch"
 
